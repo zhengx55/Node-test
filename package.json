@@ -5,11 +5,18 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "jest": "jest"
+    "jest": "jest --watch",
+    "dev": "nodemon src/server.js"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "jest": "^28.1.1"
+    "jest": "^28.1.1",
+    "mongoose": "^6.4.1",
+    "nodemon": "^2.0.18"
+  },
+  "dependencies": {
+    "express": "^4.18.1",
+    "mongodb": "^4.7.0"
   }
 }
